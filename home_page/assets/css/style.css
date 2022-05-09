@@ -151,6 +151,7 @@
         display: table;
     }
 }
+<<<<<<< HEAD
 
 
 /* Background Image */
@@ -178,6 +179,24 @@ p#cf7_controls {
 #cf7 img {
     position: absolute;
     left: 0;
+=======
+ #cf7_controls {
+    text-align:center;
+  }
+  #cf7_controls span {
+    padding-right:2em;
+    cursor:pointer;
+  }
+  #cf7 {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto 10px;
+  }
+  #cf7 img {
+    position:absolute;
+    left:0;
+>>>>>>> f4f2d484292ae6dd3348650d6379e13db77cc02c
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
@@ -192,6 +211,7 @@ p#cf7_controls {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=1);
 }
+
 
 
 /* Astrological signs name */
@@ -213,6 +233,13 @@ p#cf7_controls {
     margin-top: 400px;
     margin-left: 300px;
     margin-right: auto;
+}
+body{
+    background: url("/home_page/assets/img/back_img.jpg");
+    
+    
+    
+
 }
 
 body {
