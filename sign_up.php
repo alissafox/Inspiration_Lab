@@ -8,6 +8,10 @@
     <title>Log In Page</title>
 </head>
 <body>
+<?php 
+       include "db.php" 
+       ?>
+
 
     <h2> SignUp Page</h2><br>
     <div class = "log_in">

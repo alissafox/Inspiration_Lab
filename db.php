@@ -18,7 +18,7 @@
 class Database {
   private  $hostname = "localhost";
   private  $username = "root";
-  private  $password = "root"
+  private  $password = "root";
   private  $database = "astrograma";
   public $conn;
 

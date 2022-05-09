@@ -12,7 +12,18 @@
        include "db.php" 
        ?>
 
-
+<div id="cf7" class="shadow">
+  <img class='opaque' src="/images/Windows%20Logo.jpg" />
+  <img src="/images/Turtle.jpg;" />
+  <img src="/images/Rainbow%20Worm.jpg;" />
+  <img src="/images/Birdman.jpg;" />
+</div>
+<p id="cf7_controls">
+  <span class="selected">Image 1</span>
+  <span>Image 2</span>
+  <span>Image 3</span>
+  <span>Image 4</span>
+</p>
     <nav class="navbar">
         <div class="navbar__container">
             <a href="" id="navbar__logo">ASTROGAMA</a>
@@ -86,6 +97,6 @@
         </a>
     </div>
 
- <script src="assets\js\home.js"></script>
+ <script src="./home_page/assets/js/home.js"></script>
 </body>
 </html>

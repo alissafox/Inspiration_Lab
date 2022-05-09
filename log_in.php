@@ -8,7 +8,10 @@
     <title>Log In Page</title>
 </head>
 <body>
-   
+<?php 
+       include "db.php" 
+       ?>
+
     <h2> Login Page</h2><br>
     <div class = "log_in">
         <form id = "logIn" method = "POST" action = "success.php">
