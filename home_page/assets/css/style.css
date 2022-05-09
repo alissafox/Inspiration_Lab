@@ -141,15 +141,7 @@
     }
     
 }
-/* Background Image */
-body {
-    background: url("assets\img\back1.jpg") center;
-    
-    
-    
-}
-
-p#cf7_controls {
+ #cf7_controls {
     text-align:center;
   }
   #cf7_controls span {
@@ -183,6 +175,7 @@ p#cf7_controls {
 
 
 
+
 /* Astrological signs name */
 .sign_name {
     font-size: medium;
@@ -198,6 +191,13 @@ p#cf7_controls {
     margin-top: 400px;
     margin-left: 300px;
     margin-right: auto;
+}
+body{
+    background: url("/home_page/assets/img/back_img.jpg");
+    
+    
+    
+
 }
 
 
