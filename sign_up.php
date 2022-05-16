@@ -39,7 +39,7 @@
             <label><b>Submit</b></label>
             <input type="submit">
             <br><br>
-            <input type=" checkbox" id="check">
+            <input type="checkbox" id="check">
             <span>Remember me</span>
             <br><br>
 

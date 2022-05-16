@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+  }
+  h5 {
+    text-align: center;
+  }
+  body {
+    background-image: url("");
+    width: auto;
+  }
+  #game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #cardPic {
+    border: 2px solid black;
+  }
+  .mainCard {
+    max-height: 300px;
+    max-width: 180px;
+    margin: 2%;
+  }
+  .card {
+    max-height: 200px;
+    max-width: 120px;
+    border: 2px solid black;
+    margin: 10px;
+  }
+  
+  #buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #card2 {
+    transform: rotate(150deg);
+  }

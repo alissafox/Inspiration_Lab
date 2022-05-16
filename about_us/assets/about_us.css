@@ -1,3 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Popins", sans-serif;
+}
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("about_us.jpg"); 
+    margin-top: -10px;
+    background-size: cover;
+    
+}
+img {
+    position:inherit;
+    width: 100%;
+}
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.contact .content p {
+    font-weight: 900;
+    color:#000000;
+    font-size: 17px;
+}
+.container {
+    width: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.container .contactInfo {
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+
+}
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #124554;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:#fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3 {
+    font-weight: 1000;
+    color:#124554;
+    margin-left: -100px;
+}
+#email {
+    margin-left: -250px;
+}
+.contactForm {
+    width: 100%;
+    padding: 40px;
+    background: #fff;
+}
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input, .contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+
+}
+.contactForm .inputBox textarea :hover {
+    transform: translate(-20px);
+}
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 1s;
+    color: lightgray;
+    
+    
+}
+.contactForm .inputBox span :hover {
+    color: transparent;
+}
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width: 991px) {
+    .contact {
+        padding: 50px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .container .contactInfo {
+        margin-bottom:  40px;
+
+    }
+    .container .contactInfo, .contactForm {
+        width: 100%;
+
+    }
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -150,46 +298,5 @@
         width: 100%;
         display: table;
     }
-}
-
-
-
-
-
-
-/* Astrological signs name */
-
-.sign_name {
-    font-size: medium;
-    font-family: sans-serif;
-    margin-top: 15px;
-}
-
-
-/* All signs position */
-
-.all_signs {
-    display: grid;
-    grid-template-columns: repeat(6, minmax(14%, 0fr));
-    grid-template-rows: auto;
-    grid-gap: 0rem;
-    margin-top: 150px;
-    margin-left: 300px;
-    margin-right: auto;
-}
-body{
-    background-image: url("/back.jpg");
-}
-.carousel-inner {
-
-margin-left: 400px;
-margin-right: auto;
-margin-top: 50px;
-}
-.carousel-control-prev {
-    margin-top: -450px;
-}
-.carousel-control-next {
-    margin-top: -450px;
 }
 

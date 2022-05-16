@@ -7,42 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./home_page/assets/css/style.css" type="text/css">
     <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    
     <?php 
        include "db.php" 
        ?>
-<<<<<<< HEAD:index.html
 
-    <div id="cf7" class="shadow">
-        <img class='opaque' src="/images/Windows%20Logo.jpg" />
-        <img src="/images/Turtle.jpg;" />
-        <img src="/images/Rainbow%20Worm.jpg;" />
-        <img src="/images/Birdman.jpg;" />
-    </div>
-    <p id="cf7_controls">
-        <span class="selected">Image 1</span>
-        <span>Image 2</span>
-        <span>Image 3</span>
-        <span>Image 4</span>
-    </p>
-=======
-<div class="back_img">
+
+
+
+
     
-    <!-- <div id="cf7" class="shadow">
-  <img class='opaque' src="/images/Windows%20Logo.jpg" />
-  <img src="./home_page/assets/img/back.jpg" />
-  <img src="./home_page/assets/img/back2.jpg" />
-  <img src="./home_page/assets/img/422916-stars-wallpaper.jpg" />
-</div>
-<p id="cf7_controls">
-  <span class="selected">Image 1</span>
-  <span>Image 2</span>
-  <span>Image 3</span>
-  <span>Image 4</span>
-</p> -->
->>>>>>> f4f2d484292ae6dd3348650d6379e13db77cc02c:index.php
+
+
     <nav class="navbar">
         <div class="navbar__container">
             <a href="" id="navbar__logo">ASTROGAMA</a>
@@ -51,10 +32,7 @@
                     <a href="" class="navbar__links">Home</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="" class="navbar__links">Tech</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="" class="navbar__links">Products</a>
+                    <a href="" class="navbar__links">About us</a>
                 </li>
                 <li class="navbar__btn">
                     <a href="./log_in.php" class="button">Log In</a>
@@ -65,64 +43,86 @@
             </ul>
         </div>
     </nav>
-<<<<<<< HEAD:index.html
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+
+
+        
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-inner">
+            <div class="carousel-item active citem">
+
+                <img src="home_page/assets/img/weekly-horoscope.jpg" alt="weekly-horoscope" class="d-block"  align-content="center">
+            </div>
+            <div class="carousel-item citem">
+                <img src="home_page/assets/img/tarot.jpg" alt="tarot-card" class="d-block" align-content="center">
+            </div>
+            
+        </div>
+
     <div class="all_signs">
-        <a class="logo_sign_libra" href="" alt="libra">
-=======
-    <div id="back_image">
-      <div class="all_signs">
-        <a class = "logo_sign_libra" href="" alt="libra" >
->>>>>>> f4f2d484292ae6dd3348650d6379e13db77cc02c:index.php
+        
+
+    
+      
+        <a class = "logo_sign_libra" href="./home_page/libra.html" alt="libra" >
+
             <img src="./home_page/assets/img/libra.png" width="50%" height="auto">
             <div class="sign_name">Libra</div>
         </a>
-        <a class="logo_sign_aquarius" href="" alt="aquarius">
+        <a class="logo_sign_aquarius" href="./home_page/aquarius.html" alt="aquarius">
             <img src="./home_page/assets/img/aquarius.png" width="50%" height="auto">
             <div class="sign_name">Aquarius</div>
         </a>
-        <a class="logo_sign_aries" href="" alt="aries">
+        <a class="logo_sign_aries" href="./home_page/aries.html" alt="aries">
             <img src="./home_page/assets/img/aries.png" width="50%" height="auto">
             <div class="sign_name">Aries</div>
         </a>
-        <a class="logo_sign_cancer" href="" alt="cancer">
+        <a class="logo_sign_cancer" href="./home_page/cancer.html" alt="cancer">
             <img src="./home_page/assets/img/cancer.png" width="50%" height="auto">
             <div class="sign_name">Cancer</div>
         </a>
-        <a class="logo_sign_capricorn" href="" alt="capricorn">
+        <a class="logo_sign_capricorn" href="./home_page/capricorn.html" alt="capricorn">
             <img src="./home_page/assets/img/capricorn.png" width="50%" height="auto">
             <div class="sign_name">Capricorn</div>
         </a>
-        <a class="logo_sign_gemini" href="" alt="gemini">
+        <a class="logo_sign_gemini" href="./home_page/gemini.html" alt="gemini">
             <img src="./home_page/assets/img/gemini.png" width="50%" height="auto">
             <div class="sign_name">Gemini</div>
         </a>
-        <a class="logo_sign_leo" href="" alt="leo">
+        <a class="logo_sign_leo" href="./home_page/leo.html" alt="leo">
             <img src="./home_page/assets/img/leo.png" - width="50%" height="auto">
             <div class="sign_name">Leo</div>
         </a>
-        <a class="logo_sign_prisces" href="" alt="prisces">
+        <a class="logo_sign_pisces" href="./home_page/pisces.html" alt="pvisces">
             <img src="./home_page/assets/img/pisces.png" width="50%" height="auto">
             <div class="sign_name">Prisces</div>
         </a>
-        <a class="logo_sign_sagittarius" href="" alt="sagittarius">
+        <a class="logo_sign_sagittarius" href="./home_page/sagittarius.html" alt="sagittarius">
             <img src="./home_page/assets/img/sagittarius.png" width="50%" height="auto">
             <div class="sign_name">Sagittarius</div>
         </a>
-        <a class="logo_sign_scorpio" href="" alt="scorpio">
+        <a class="logo_sign_scorpio" href="./home_page/scorpio.html" alt="scorpio">
             <img src="./home_page/assets/img/scorpio.png" width="50%" height="auto">
             <div class="sign_name">Scorpio</div>
         </a>
-        <a class="logo_sign_taurus" href="" alt="taurus">
+        <a class="logo_sign_taurus" href="./home_page/taurus.html" alt="taurus">
             <img src="./home_page/assets/img/taurus.png" width="50%" height="auto">
             <div class="sign_name">Taurus</div>
         </a>
-        <a class="logo_sign_virgo" href="" alt="virgo">
+        <a class="logo_sign_virgo" href="./home_page/virgo.html" alt="virgo">
             <img src="./home_page/assets/img/virgo.png" width="50%" height="auto">
             <div class="sign_name">Virgo</div>
         </a>
     </div>
     </div>
-    </div>
+    
 
     <script src="./home_page/assets/js/home.js"></script>
 </body>
